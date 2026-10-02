@@ -1,0 +1,23 @@
+.btn {
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 50px;
+  box-shadow: 2px 2px 10px var(--shadow);
+  font-weight: normal !important;
+  text-align: center;
+  &:hover {
+    box-shadow:
+      2px 2px 10px var(--shadow),
+      inset 2px 2px 10px var(--shadow);
+  }
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.btn-secondary {
+  background: var(--white);
+  color: var(--black);
+}

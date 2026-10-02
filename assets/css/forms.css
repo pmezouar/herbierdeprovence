@@ -1,0 +1,34 @@
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 900px;
+
+  input,
+  select,
+  textarea {
+    text-align: center;
+    border: 1px solid var(--primary);
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+  }
+
+  div {
+    display: flex;
+    gap: 20px;
+    align-items: start;
+    margin-top: 20px;
+
+    label {
+      text-align: justify;
+    }
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+}

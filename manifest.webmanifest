@@ -1,0 +1,32 @@
+{
+  "name": "Herbier de Provence",
+  "short_name": "Herbier de Provence",
+  "description": "Grossiste en herbes aromatiques sauvages de Provence",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#fff",
+  "orientation": "portrait-primary",
+  "lang": "fr-FR",
+  "dir": "ltr",
+  "categories": [
+    "trade",
+    "wholesaler",
+    "aromatics herbs"
+  ],
+  "icons": [
+    {
+      "src": "./assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
